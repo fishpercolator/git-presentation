@@ -15,3 +15,8 @@
 .reveal section ul.left {
   width: 60%;
 }
+
+.reveal section img.full {
+  border: 1px solid black;
+  max-height: 600px;
+}
