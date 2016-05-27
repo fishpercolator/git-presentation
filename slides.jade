@@ -1,0 +1,45 @@
+//- For Jade language reference, see <http://jade-lang.com/reference/>
+section
+  h1= title
+  img(src='img/git_logo.png')
+  h2= description
+section
+  h2 What is Git?
+  img.right(src='img/linus-torvalds.jpg')
+  ul.left
+    li.fragment Version control
+    li.fragment Latest in a long line of steadily better VCS
+    li.fragment Created for the Linux kernel
+    li.fragment Used by (almost) the entire open-source community
+section
+  h2 What is versionable?
+  ul
+    li.fragment Everything!
+    li.fragment Text better than 'binary', e.g.
+    ul
+      li.fragment Code
+      li.fragment Configuration
+      li.fragment SVG
+      li.fragment Writing (e.g. in Markdown)
+      li.fragment This presentation
+section
+  h2 Go back in time
+  pre
+    code.bash
+      | git log
+      | git show 7b604b5
+      | git checkout 7b604b5
+      | git difftool -d 8c86d7e
+  img.half(src='img/difftool.png')
+section
+  h2 Work together
+section 
+  h2 Work separately
+section
+  h2 Multiple copies
+section
+  h2 Github (et al)
+section
+  h2 Forks & pulls
+section
+  h1 Demo/questions
